@@ -1,6 +1,6 @@
-﻿namespace Presentation
+﻿namespace Comands
 {
-    partial class Form1
+    partial class Editor
     {
         /// <summary>
         /// Обязательная переменная конструктора.

@@ -1,22 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Presentation.Comands;
+using Comands.Comands;
 
-namespace Presentation
+namespace Comands
 {
-    public partial class Form1 : Form
+    public partial class Editor : Form
     {
         public CommandHistory history = new CommandHistory();
         public String clipboard;
 
-        public Form1()
+        public Editor()
         {
             InitializeComponent();
         }

@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace Presentation
 {
-    static class Program
+    static class Application
     {
         /// <summary>
         /// Главная точка входа для приложения.
@@ -14,9 +14,9 @@ namespace Presentation
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            System.Windows.Forms.Application.EnableVisualStyles();
+            System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+            System.Windows.Forms.Application.Run(new Editor());
         }
     }
 }

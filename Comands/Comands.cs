@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Presentation.Comands
+namespace Comands.Comands
 {
     public abstract class Command
     {
@@ -62,7 +60,7 @@ namespace Presentation.Comands
     {
 
         public CutCommand(Editor editor) : base(editor) { }
-        
+
         public override bool Execute()
         {
             if (textBox.SelectedText == null || textBox.SelectedText == "") return false;
